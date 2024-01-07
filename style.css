@@ -1,5 +1,6 @@
 body {
     padding: 0px 50px;
+    width: 1320px;
 }
 
 #headerBanner {
@@ -22,6 +23,23 @@ body {
     text-align: center;
 
 }
-#joinPatySction{
-    
+
+#joinPartySection {
+    display: flex;
+    margin-top: 70px;
+    background-image: linear-gradient(to bottom right, hwb(258 0% 86% / 0.5), rgba(2, 1, 23, 0.5)), url(resources/Vectorrr.png);
+    height: 500px;
+    width: 1320;
+
+}
+
+#joinPatySctionTittle {
+    color: white;
+    width: 50%;
+    padding: 40px 0px 0px 70px;
+}
+
+#joinPatySctionImg img {
+    height: 365px;
+    padding: 80px 180px;
 }
