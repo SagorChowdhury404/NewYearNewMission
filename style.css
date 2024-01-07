@@ -43,3 +43,11 @@ body {
     height: 365px;
     padding: 80px 180px;
 }
+
+#giftGallaryImageSection img {
+    padding: 5px;
+}
+
+#giftGallarySection {
+    margin-top: 100px;
+}
