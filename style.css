@@ -1,8 +1,11 @@
 body {
     padding: 0px 50px;
     width: 1320px;
+    font-family: 'Roboto',
+        sans-serif;
 }
 
+/* <!-- header banner section  -->-------->>>>>>>>>>>>>>>>>>>>>.  */
 #headerBanner {
     background-image: linear-gradient(to bottom right, hwb(258 0% 86% / 0.5), rgba(7, 5, 56, 0.5)), url(resources/Banner\ Image.png);
     background-size: cover;
@@ -19,11 +22,40 @@ body {
 }
 
 
+
+/* <!-- offerSection 2024 -->-------->>>>>>>>>>>>>>>>>>>>>.  */
 #offerSection {
     text-align: center;
 
 }
 
+
+/* join midnight PartySection -------->>>>>>>>>>>>>>>>>>>>>.   */
+#joinPartySection {
+    display: flex;
+    margin-top: 70px;
+    background-image: linear-gradient(to bottom right, hwb(258 0% 86% / 0.5), rgba(2, 1, 23, 0.5)), url(resources/Vectorrr.png);
+    height: 500px;
+    width: 1320;
+
+}
+
+#joinPatySctionTittle {
+    color: white;
+    width: 50%;
+    padding: 40px 0px 0px 70px;
+    font-weight: bold;
+}
+
+#joinPatySctionImg img {
+    height: 365px;
+    padding: 80px 120px;
+}
+
+
+
+
+/* location -------->>>>>>>>>>>>>>>>>>>>>.  */
 #locationSection {
     margin-top: 50px;
     /* height: 482px; */
@@ -45,34 +77,21 @@ body {
     font-weight: bold;
 }
 
+/* comeingSoonPaty -------->>>>>>>>>>>>>>>>>>>>>.  */
+/* ///////////////////// */
 
 
 
 
-
-
-
-#joinPartySection {
-    display: flex;
-    margin-top: 70px;
-    background-image: linear-gradient(to bottom right, hwb(258 0% 86% / 0.5), rgba(2, 1, 23, 0.5)), url(resources/Vectorrr.png);
-    height: 500px;
-    width: 1320;
-
-}
-
-#joinPatySctionTittle {
-    color: white;
-    width: 50%;
-    padding: 40px 0px 0px 70px;
-}
-
-#joinPatySctionImg img {
-    height: 365px;
-    padding: 80px 120px;
+/* FUNCTIONALHolidays -------->>>>>>>>>>>>>>>>>>>>>.  */
+#FUNCTIONALHolidays {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 #FunctionalSection {
+    margin-top: 50px;
     display: flex;
     background-image: url(resources/Rectangle\ 2.png);
     background-repeat: no-repeat;
@@ -82,11 +101,7 @@ body {
 }
 
 
-
-
-
-
-
+/* giftGallaryImageSection ------->>>>>>>>>>>>>> */
 
 #giftGallaryImageSection img {
     padding: 5px;
@@ -97,6 +112,9 @@ body {
 }
 
 
+
+
+/* NewsletterSection------------->>>>>>>>>>> */
 #NewsletterSection {
     margin-top: 50px;
     background-color: #f3d7c9;
@@ -114,6 +132,10 @@ body {
     align-items: center;
 }
 
+
+
+
+/* footerSection--------------->>>>>>>>>>>>>>>>> */
 #footerSection {
     padding: 50px;
     color: whitesmoke;
