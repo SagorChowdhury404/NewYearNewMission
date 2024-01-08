@@ -56,10 +56,14 @@ body {
 
 
 /* location -------->>>>>>>>>>>>>>>>>>>>>.  */
+#ComeingSoonOfferLocation {
+  
+   box-shadow: 0 20px 30px rgba(78, 70, 12, 0.1)
+}
+
 #locationSection {
     margin-top: 50px;
     /* height: 482px; */
-    background-color: #e6edb99e;
     padding: 100px 0px 100px 500px;
 
 }
